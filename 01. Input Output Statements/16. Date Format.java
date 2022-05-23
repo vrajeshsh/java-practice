@@ -11,7 +11,7 @@ class date {
             int mm = (num/10000)%100;
             int dd = (num/1000000)%100;
 
-            System.out.println("");
+            System.out.println("\n"+(int)dd/10+dd%10+"-"+(int)mm/10+mm%10+"-"+(int)yy/10+yy%10+"\n");
         }
     }
 }
